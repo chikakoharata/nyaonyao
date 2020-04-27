@@ -17,12 +17,16 @@
 	height: 36px;
 }
 
+.left-container {
+	display: flex;
+}
+
 .love {
   background-image: image-url("parts5");
   background-repeat: no-repeat;
   height: 36px;
   width: 36px;
-  background-size: 36px !important;
+	background-size: 36px !important;
 }
 
 .loved {
@@ -37,5 +41,13 @@
   display: block;
   overflow: hidden;
   text-indent: 110%;
-  white-space: nowrap;
+	white-space: nowrap;
+}
+
+.counter {
+	margin-top: auto;
+}
+
+.favorite {
+	margin: auto 0 0  20px;
 }
