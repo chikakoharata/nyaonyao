@@ -19,9 +19,6 @@
             <%= link_to "いいね", post_likes_path(post), method: :POST, remote: true, class: "love hide-text" %>
           <% end %>
         </div>
-        <div class="counter">
-          <%= post.like_ids.length %>
-        </div>
         <div class="favorite">
           <div id="like-text-post-<%= post.id.to_s %>" >
             <%= render "like_text", { likes: post.likes } %>
